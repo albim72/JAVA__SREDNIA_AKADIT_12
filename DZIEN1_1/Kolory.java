@@ -4,7 +4,7 @@ class Kolory {
     int id;
     String nazwa_koloru;
     String paleta;
-    int nr_paczki;
+    private int nr_paczki;
 
     public Kolory(int id, String nazwa_koloru, String paleta) {
         this.id = id;
@@ -12,6 +12,10 @@ class Kolory {
         this.paleta = paleta;
         this.nr_paczki = 2;
         this.message();
+    }
+
+    public void setNr_paczki(int nr_paczki) {
+        this.nr_paczki = nr_paczki;
     }
 
     public void message(){
@@ -28,7 +32,7 @@ public class Main {
 
         System.out.println("To jest nowa klasa");
         Kolory c1 = new Kolory(23,"czerwony","Paleta A");
-        c1.nr_paczki = 1;
+        c1.setNr_paczki(1);
         System.out.println(c1.PrintKolor("To jest nowy kolor -> "));
 
         Kolory c2 = new Kolory(52,"Jasny szary","Paleta BG");
