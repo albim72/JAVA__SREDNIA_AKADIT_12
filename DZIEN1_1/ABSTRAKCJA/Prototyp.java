@@ -1,4 +1,4 @@
-public abstract class Prototyp {
+public abstract class Prototyp extends Ekstras {
     protected int x;
     protected int y;
 
@@ -6,11 +6,11 @@ public abstract class Prototyp {
         this.x = x;
         this.y = y;
     }
-    
+
     public String opis(){
         return "to jest metoda nieabstrakcyjna klasy abstrakcyjnej";
     }
-    
+
     public abstract int policz();
 
 }
