@@ -7,5 +7,9 @@ public abstract class Figura {
         this.b = b;
     }
 
+    public Figura(double a) {
+        this.a = a;
+    }
+
     public abstract double policzPole();
 }
