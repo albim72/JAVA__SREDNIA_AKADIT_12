@@ -4,12 +4,12 @@ public class DrugaKlasa extends PierwszaKlasa {
         super(a, b);
         this.c = c;
     }
-    
+
     public void print_abc(){
         System.out.println("Wartości: a = " + a + ", b = " + b + ", c = " + c);
     }
 
     public int sumuj(){
-        return a+b+c;
+        return a+b+c*faktor;
     }
 }
