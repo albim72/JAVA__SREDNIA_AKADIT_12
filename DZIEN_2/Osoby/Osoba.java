@@ -18,7 +18,7 @@ public abstract class Osoba implements IFitness {
 
     public String getOsoba(){
         return String.format("Osoba -> imię: %s, nazwisko: %s, wiek: %d, " +
-                "waga: %.2f kg, wzrost: %.2f cm");
+                "waga: %.2f kg, wzrost: %.2f cm",imie,nazwisko,wiek,waga,wzrost);
     }
 
     public double wiek_za_N_lat(int n){
