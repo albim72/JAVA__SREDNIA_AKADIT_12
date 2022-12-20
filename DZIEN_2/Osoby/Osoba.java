@@ -1,4 +1,4 @@
-public abstract class Osoba {
+public abstract class Osoba implements IFitness {
     protected String imie;
     protected String nazwisko;
     protected int wiek;
