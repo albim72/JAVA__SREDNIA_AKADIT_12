@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <student>
+        <id>675</id>
+        <firstname>Olga</firstname>
+        <lastname>Kot</lastname>
+        <subject>Matematyka dyskretna</subject>
+        <marks>89</marks>
+    </student>
+    <student>
+        <id>866</id>
+        <firstname>Olaf</firstname>
+        <lastname>Knot</lastname>
+        <subject>Geometria wykreślna</subject>
+        <marks>65</marks>
+    </student>
+    <student>
+        <id>123</id>
+        <firstname>Jarosław</firstname>
+        <lastname>Nowak</lastname>
+        <subject>Sieci przemysłowe</subject>
+        <marks>54</marks>
+    </student>
+    <student>
+        <id>624</id>
+        <firstname>Ala</firstname>
+        <lastname>Kowal</lastname>
+        <subject>Inżynieria oprogramowania</subject>
+        <marks>76</marks>
+    </student>
+    <student>
+        <id>888</id>
+        <firstname>Nadia</firstname>
+        <lastname>Rychlik</lastname>
+        <subject>Programowanie zaawansowane</subject>
+        <marks>65</marks>
+    </student>
+</class>
